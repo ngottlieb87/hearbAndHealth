@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { AuthenticationService } from './authentication.service';
+import { AuthenticationService } from './authentication/authentication.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,7 @@ export class AppComponent {
    this.authService.user.subscribe(user => {
      if (user == null) {
        this.isLoggedIn = false;
-       this.router.navigate(['public']);
+      //  this.router.navigate(['public']);
      } else {
        this.isLoggedIn = true;
        this.userName = user.displayName;

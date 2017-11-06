@@ -5,11 +5,11 @@
       <a class="navbar-brand" routerLink="">Authentication Example</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li *ngIf="user">
+      <li *ngIf="isLoggedIn">
         <a>{{userName}}</a>
         <a (click)="logout()">Log out</a>
       </li>
-      <li *ngIf ="!user">
+      <li *ngIf ="!isLoggedIn">
         <a (click)="login()">Log in</a>
       </li>
     </ul>
