@@ -17,10 +17,10 @@ export class PlantListComponent implements OnInit {
 
   ngOnInit() {
     this.plants = this.plantService.getPlants();
+    debugger;
   }
 
   goToPlantDetailPage(clickedPlant){
     this.router.navigate(['plants',clickedPlant.$key])
-  }
-
+  };
 }
