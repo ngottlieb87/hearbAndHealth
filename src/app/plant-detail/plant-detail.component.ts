@@ -1,0 +1,25 @@
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+import { Location } from '@angular/common';
+import { Plant } from '../plant.model';
+import { PlantService } from '../plant.service'
+
+ @Component({
+  selector: 'app-plant-detail',
+  templateUrl: './plant-detail.component.html',
+  styleUrls: ['./plant-detail.component.css'],
+  providers: [PlantService]
+})
+export class PlantDetailComponent implements OnInit {
+  plantId: number;
+  plantToDisplay;
+  constructor(private route: ActivatedRoute, private location: Location, private plantService: PlantService) { }
+
+  ngOnInit() {
+    this.route.params.forEach((urlParameters)=>{
+      this.plantId = parseInt(urlParameters['id']);
+    });
+    this.plantToDisplay = this.plantService.getPlantById(this.plantId)
+  }
+
+}
