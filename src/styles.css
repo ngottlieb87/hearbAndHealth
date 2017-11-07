@@ -6,6 +6,9 @@
    background-repeat: no-repeat;
    background-size: cover;
   }
+  html {
+    height: 100%;
+  }
   .footer {
   position: fixed;
   bottom: 0;
