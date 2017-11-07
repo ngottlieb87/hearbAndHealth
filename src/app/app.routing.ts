@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { PublicComponent } from './public/public.component';
 import { PrivateComponent } from './private/private.component';
 import { PlantDetailComponent} from './plant-detail/plant-detail.component';
+import { PlantListComponent } from './plant-list/plant-list.component';
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -20,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'plants/:id',
     component: PlantDetailComponent
+  },
+  {
+    path: 'plant-list',
+    component: PlantListComponent
   }
 ];
 

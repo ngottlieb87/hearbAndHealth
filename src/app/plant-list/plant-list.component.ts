@@ -19,7 +19,7 @@ export class PlantListComponent implements OnInit {
     this.plants = this.plantService.getPlants();
   }
 
-  goToPlantDetailPage(clickedPlant: Plant){
+  goToPlantDetailPage(clickedPlant){
     this.router.navigate(['plants',clickedPlant.$key])
   }
 

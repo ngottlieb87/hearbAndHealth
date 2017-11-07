@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { Plant } from '../plant.model';
-import { PlantService } from '../plant.service'
+import { PlantService } from '../plant.service';
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
  @Component({
   selector: 'app-plant-detail',
