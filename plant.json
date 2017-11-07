@@ -1,0 +1,93 @@
+{ "plants": [{
+    "name":"mint",
+    "nutrients": ["potasium","magnesium","calcium","phosphorus","vitamin c","iron"],
+    "uses": "Mint has one of the highest antioxidant capacities of any food. Good for allergies,
+    breast feeding, the common cold, indigestion and gas, irratable bowel syndrom, gastric
+    ulcers, pain releif, skin, and oral health. The natural oil in peppermint provides pain
+    relief for those with IBS. It also has potent anti-nausea effects when used in aromatherapy.",
+    "id": "1"
+    },
+    {
+    "name":"basil",
+    "nutrients": ["calcium","iron","manganese","magnesium","vitamin C","potasium","vitamin K",
+    "vitamin A"],
+    "uses": "Prevents cholesterol in blood from oxidizing, helping to prevent atherosclerosis,
+    heart attacks, and stroke. It also has antibacterial properties and contains DNA-protecting
+    flavonoids. Its also in the anti-inflamatory category because it provides relief from related
+    problems, such as rheumatoid arthritis. Holy basil appears to improve immune function and
+    inhibit the growth of bacteria, yeasts and molds.",
+    "id": "2"
+    },
+    {
+    "name":"oregano",
+    "nutrients": ["fiber","calcium","iron","manganese","magnesium","potasium","vitamin E"
+    "vitamin K"],
+    "uses": "Oregano is a Mediterranean herb that is used for cooking and medicinal purposes,
+    ranging from treating infections to repelling insects. Active ingredients in oregano could
+    one day help treat osteoporosis, cancer, and diabetes. Use it to flavor sauces, make herby
+    bread rolls, and in marinades for meat. People with an allergy to mint should take care when
+    consuming oregano.",
+    "id": "3"
+    },
+    {
+    "name":"cinnamon",
+    "nutrients": ["fiber","manganese","calcium","iron","vitamin K"],
+    "uses": "Lowers blood sugar levels and has a powerfull anti diabetic effect. It contains a
+    compound called cinnamaldehyde, which is responsible for cinnamon's medicinal properties.
+    Cinnamon has numerous health benefits, and is particularly effective at lowering blood
+    sugar levels.",
+    "id": "4"
+    },
+    {
+    "name":"sage",
+    "nutrients": ["fiber","vitamin A","folate","calcium","iron","magnesium","manganese",
+    "vitamin B", "folic acid","thiamin","pyridoxine","riboflavin"],
+    "uses": "Current research indicates that sage may be able to improve brain function and
+    memory, especially in people with Alzheimer's disease.There is promising evidence that
+    sage extract can improve brain and memory function, especially in individuals with
+    Alzheimer's disease.",
+    "id": "5"
+    },
+    {
+    "name":"tumeric",
+    "nutrients": ["manganese","iron","fiber","vitmain B6","potasium","vitamin C","magnesium"],
+    "uses": "Turmeric Contains Curcumin, a Substance With Powerful Anti-Inflammatory Effects.
+    Curcumin helps to fight oxidative damage and boosting the body's own antioxidant enzymes.
+    This is important, because oxidative damage is believed to be one of the key mechanisms
+    behind ageing and many diseases. Curcumin is also strongly anti-inflammatory, to the point
+    where it matches the effectiveness of some anti-inflammatory drugs. Studies suggest that
+    it can improve brain function, fight Alzheimer's, reduce the risk of heart disease and
+    cancer, and relieve arthritis, to name a few ",
+    "id": "6"
+    },
+    {
+    "name":"ginger",
+    "nutrients": ["vitamin B6","magnesium","phosphorus","zinc","folate","riboflavin","niacin"],
+    "uses": "1 gram of ginger appears to be an effective treatment for many types of nausea.
+    It is also anti-inflammatory, and can help reduce pain. Other research found that a mixture
+    of ginger, cinnamon, mastic, and sesame oil decreased pain and stiffness experienced by
+    those with osteoarthritis. It had a similar effectiveness as treatment with aspirin or
+    ibuprofen",
+    "id": "7"
+    },
+    {
+    "name":"garlic",
+    "nutrients": ["vitamin B6","manganese","selenium","vitamin C","phosphorus","calcium",
+    "potasium","iron","copper"],
+    "uses": "Garlic supplementation is well known for combatting sickness, including the
+    common cold. For those with high cholesterol, garlic supplementation appears to reduce
+    total and/or LDL cholesterol by about 10-15%. In one study, it was just as effective as a
+    blood pressure lowering drug.",
+    "id": "8"
+    },
+   {
+   "name":"rosemary",
+   "nutrients": ["vitamin A","thiamin","magnesium","fiber","vitamin C","vitamin B6","folate",
+   "calcium","iron","magnesium","saturated fats"],
+   "uses": "Rosmarinic acid has anti-inflammatory effects that appear to suppress allergy
+    symptoms and reduce nasal congestion. The active ingredient in rosemary is called
+    rosmarinic acid",
+   "id": "9"
+  }
+  ]
+}
