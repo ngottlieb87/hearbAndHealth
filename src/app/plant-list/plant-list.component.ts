@@ -20,7 +20,7 @@ export class PlantListComponent implements OnInit {
   }
 
   goToPlantDetailPage(clickedPlant: Plant){
-    this.router.navigate(['plants',clickedPlant.$key])
+    // this.router.navigate(['plants',clickedPlant.$key])
   }
 
 }
