@@ -13,8 +13,15 @@ export class PlantService {
     return this.plants;
   }
 
-  getPlantById(plantId: number){
-    return this.database.object('plants/' + plantId);
-  }
+  getPlantById(plantId: string){
+    return this.database.object('/plants/' + plantId);
+}
+
+  updatePlant(localUpdatedPlant){
+   var plantEntryInFirebase = this.getPlantById(localUpdatedPlant.$key);
+   plantEntryInFirebase.update({name: localUpdatedPlant.name,
+                               nutrients: localUpdatedPlant.nutrients,
+                               uses: localUpdatedPlant.uses});
+ }
 
 }

@@ -17,4 +17,8 @@ export class EditPlantComponent implements OnInit {
   ngOnInit() {
   }
 
+  beginUpdatingPlant(plantToUpdate){
+    this.plantService.updatePlant(plantToUpdate);
+  }
+
 }
