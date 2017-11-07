@@ -4,7 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { PublicComponent } from './public/public.component';
 import { PrivateComponent } from './private/private.component';
 import { PlantDetailComponent} from './plant-detail/plant-detail.component';
-import { PlantListComponent } from './plant-list/plant-list.component';
+
+import { PlantListComponent} from './plant-list/plant-list.component';
+import { EditPlantComponent} from './edit-plant/edit-plant.component';
+
 
 const appRoutes: Routes = [
   {
@@ -26,6 +29,11 @@ const appRoutes: Routes = [
   {
     path: 'plant-list',
     component: PlantListComponent
+  },
+  {
+    path: 'edit-plant',
+    component: EditPlantComponent
+
   }
 ];
 
