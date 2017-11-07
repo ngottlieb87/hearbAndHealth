@@ -21,4 +21,10 @@ export class EditPlantComponent implements OnInit {
     this.plantService.updatePlant(plantToUpdate);
   }
 
+  beginDeletingPlant(plantToDelete){
+    if(confirm("Are you sure you want to delete this plant?")){
+      this.plantService.deletePlant(plantToDelete);
+    }
+  }
+
 }

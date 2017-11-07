@@ -24,4 +24,9 @@ export class PlantService {
                                uses: localUpdatedPlant.uses});
  }
 
+ deletePlant(localPlantToDelete){
+    var plantEntryInFirebase = this.getPlantById(localPlantToDelete.$key);
+    plantEntryInFirebase.remove();
+  }
+
 }

@@ -11,13 +11,13 @@ import { PlantService } from '../plant.service'
   providers: [PlantService]
 })
 export class PlantDetailComponent implements OnInit {
-  plantId: number;
+  plantId: string;
   plantToDisplay;
   constructor(private route: ActivatedRoute, private location: Location, private plantService: PlantService) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters)=>{
-      this.plantId = parseInt(urlParameters['id']);
+      this.plantId = urlParameters['id'];
     });
     this.plantToDisplay = this.plantService.getPlantById(this.plantId)
   }
