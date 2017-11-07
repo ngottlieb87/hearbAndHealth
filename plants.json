@@ -24,46 +24,28 @@
     "name":"sage",
     "nutrients": ["fiber","vitamin A","folate","calcium","iron","magnesium","manganese",
     "vitamin B", "folic acid","thiamin","pyridoxine","riboflavin"],
-    "uses": ["Improve Brain Function", "Alzheimer"]"Current research indicates that sage may be able to improve brain function and
-    memory, especially in people with Alzheimer's disease.There is promising evidence that
-    sage extract can improve brain and memory function, especially in individuals with
-    Alzheimer's disease."
+    "uses": ["Improve Brain Function", "Alzheimer","Memory","Lowering Blood Glucose"]
   },
   {
     "name": "tumeric",
     "nutrients": ["manganese","iron","fiber","vitmain B6","potasium","vitamin C","magnesium"],
-    "uses": "Turmeric Contains Curcumin, a Substance With Powerful Anti-Inflammatory Effects.
-    Curcumin helps to fight oxidative damage and boosting the body's own antioxidant enzymes.
-    This is important, because oxidative damage is believed to be one of the key mechanisms
-    behind ageing and many diseases. Curcumin is also strongly anti-inflammatory, to the point
-    where it matches the effectiveness of some anti-inflammatory drugs. Studies suggest that
-    it can improve brain function, fight Alzheimer's, reduce the risk of heart disease and
-    cancer, and relieve arthritis, to name a few "
+    "uses": ["Anti-Inflammatory", "Antioxidant", "Alzheimers", "Brain Function", "Heart Disease"]
   },
   {
     "name":"ginger",
     "nutrients": ["vitamin B6","magnesium","phosphorus","zinc","folate","riboflavin","niacin"],
-    "uses": "1 gram of ginger appears to be an effective treatment for many types of nausea.
-    It is also anti-inflammatory, and can help reduce pain. Other research found that a mixture
-    of ginger, cinnamon, mastic, and sesame oil decreased pain and stiffness experienced by
-    those with osteoarthritis. It had a similar effectiveness as treatment with aspirin or
-    ibuprofen"
+    "uses": ["Nausea", "Pain relief", "Osteoporosis"]
   },
   {
     "name":"garlic",
     "nutrients": ["vitamin B6","manganese","selenium","vitamin C","phosphorus","calcium",
     "potasium","iron","copper"],
-    "uses": "Garlic supplementation is well known for combatting sickness, including the
-    common cold. For those with high cholesterol, garlic supplementation appears to reduce
-    total and/or LDL cholesterol by about 10-15%. In one study, it was just as effective as a
-    blood pressure lowering drug."
+    "uses": ["Common Cold", "High-Cholesterol", "Blood pressure"]
   },
  {
    "name":"rosemary",
    "nutrients": ["vitamin A","thiamin","magnesium","fiber","vitamin C","vitamin B6","folate",
    "calcium","iron","magnesium","saturated fats"],
-   "uses": "Rosmarinic acid has anti-inflammatory effects that appear to suppress allergy
-    symptoms and reduce nasal congestion. The active ingredient in rosemary is called
-    rosmarinic acid."
+   "uses": ["Anti-inflammatory", "Allergies", "Nasal Congestion"]
   }]
 }
