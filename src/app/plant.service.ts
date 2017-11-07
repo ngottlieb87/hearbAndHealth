@@ -15,6 +15,7 @@ export class PlantService {
 
   getPlantById(plantId: string){
     return this.database.object('/plants/' + plantId);
+<<<<<<< HEAD
 }
 
   updatePlant(localUpdatedPlant){
@@ -27,6 +28,8 @@ export class PlantService {
  deletePlant(localPlantToDelete){
     var plantEntryInFirebase = this.getPlantById(localPlantToDelete.$key);
     plantEntryInFirebase.remove();
+=======
+>>>>>>> 91ff6bce6876b316c3ae70f2096d6cae8a03542a
   }
 
 }

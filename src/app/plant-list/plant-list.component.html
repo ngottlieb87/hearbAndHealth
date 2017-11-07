@@ -1,3 +1,5 @@
-<p>
-  plant-list works!
-</p>
+<div *ngFor="let plant of plants | async" (click)="goToPlantDetailPage(plant)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{plant.name}}</em></h3>
+  </div>
+</div>

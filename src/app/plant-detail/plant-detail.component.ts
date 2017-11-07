@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { Plant } from '../plant.model';
-import { PlantService } from '../plant.service'
+import { PlantService } from '../plant.service';
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
  @Component({
   selector: 'app-plant-detail',
@@ -13,13 +14,16 @@ import { PlantService } from '../plant.service'
 export class PlantDetailComponent implements OnInit {
   plantId: string;
   plantToDisplay;
-  constructor(private route: ActivatedRoute, private location: Location, private plantService: PlantService) { }
+
+  constructor(private route: ActivatedRoute,
+              private location: Location,
+              private plantService: PlantService) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters)=>{
       this.plantId = urlParameters['id'];
     });
-    this.plantToDisplay = this.plantService.getPlantById(this.plantId)
+    this.plantToDisplay = this.plantService.getPlantById(this.plantId);
   }
 
 }
