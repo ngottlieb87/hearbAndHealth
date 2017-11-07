@@ -13,8 +13,8 @@ export class PlantService {
     return this.plants;
   }
 
-  getPlantById(plantId: number){
-    return this.database.object('plants/' + plantId);
+  getPlantById(plantId: string){
+    return this.database.object('/plants/' + plantId);
   }
 
 }
