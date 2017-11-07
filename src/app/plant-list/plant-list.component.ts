@@ -17,7 +17,12 @@ export class PlantListComponent implements OnInit {
 
   ngOnInit() {
     this.plants = this.plantService.getPlants();
+<<<<<<< HEAD
   }
+=======
+  };
+
+>>>>>>> 1be36c47de60df51a73b4624cab64ea78953ea69
   goToPlantDetailPage(clickedPlant){
     this.router.navigate(['plants',clickedPlant.$key])
   };
