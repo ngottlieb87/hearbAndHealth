@@ -14,6 +14,8 @@ import { PublicComponent } from './public/public.component';
 import { PrivateComponent } from './private/private.component';
 import { AuthGuard } from './auth-guard/auth-guard.service';
 import { AuthenticationService } from './authentication/authentication.service';
+import { PlantListComponent } from './plant-list/plant-list.component';
+import { PlantDetailComponent } from './plant-detail/plant-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -30,7 +32,9 @@ export const firebaseConfig = {
     AppComponent,
     HomeComponent,
     PublicComponent,
-    PrivateComponent
+    PrivateComponent,
+    PlantListComponent,
+    PlantDetailComponent
   ],
   imports: [
     BrowserModule,
