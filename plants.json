@@ -1,51 +1,51 @@
 {"plants": [{
-    "name": "mint",
-    "nutrients": ["potasium","magnesium","calcium","phosphorus","vitamin c","iron"],
-    "uses": ["Allergies", "Breast Feeding", "Common Cold", "Indegestion and gas", "IBS", "Gastric ulcers", "Pain Relief", "skin and oral health","pain relief"]
+    "name": "Mint",
+    "nutrients": ["Potasium","Magnesium","Calcium","Phosphorus","Vitamin C","Iron"],
+    "uses": ["Allergies", "Breast Feeding", "Common Cold", "Indegestion and Gas", "IBS", "Gastric ulcers", "Pain Relief", "Skin and Oral Health","Pain Releif"]
   },
   {
-    "name":"basil",
-    "nutrients": ["calcium","iron","manganese","magnesium","vitamin C","potasium","vitamin K",
-    "vitamin A"],
-    "uses": ["Cholesterol Control", "Atherosclerosis", "heart attacks", "strokes"]
+    "name":"Basil",
+    "nutrients": ["Calcium","Iron","Manganese","Magnesium","Vitamin C","Potasium","Vitamin K",
+    "Vitamin A"],
+    "uses": ["Cholesterol Control", "Atherosclerosis", "Heart Attacks", "Strokes"]
   },
   {
-    "name":"oregano",
-    "nutrients": ["fiber","calcium","iron","manganese","magnesium","potasium","vitamin E",
-    "vitamin K"],
+    "name":"Oregano",
+    "nutrients": ["Fiber","Calcium","Iron","Manganese","Magnesium","Potasium","Vitamin E",
+    "Vitamin K"],
     "uses": ["Treating Infections", "Osteoporosis", "Diabetes", "Cancer", "Diabetes"]
   },
   {
-    "name":"cinnamon",
-    "nutrients": ["fiber","manganese","calcium","iron","vitamin K"],
+    "name":"Cinnamon",
+    "nutrients": ["Fiber","Manganese","Calcium","Iron","Vitamin K"],
     "uses": ["Blood Sugar Management","Anti-Inflammatory", "Heart Health", "Protects Brain Function", "Fights Infectious Disease"]
   },
   {
-    "name":"sage",
-    "nutrients": ["fiber","vitamin A","folate","calcium","iron","magnesium","manganese",
-    "vitamin B", "folic acid","thiamin","pyridoxine","riboflavin"],
+    "name":"Sage",
+    "nutrients": ["Fiber","Vitamin A","Folate","Calcium","Iron","Magnesium","Manganese",
+    "Vitamin B", "Folic Acid","Thiamin","Pyridoxine","Riboflavin"],
     "uses": ["Improve Brain Function", "Alzheimer","Memory","Lowering Blood Glucose"]
   },
   {
-    "name": "tumeric",
-    "nutrients": ["manganese","iron","fiber","vitmain B6","potasium","vitamin C","magnesium"],
+    "name": "Tumeric",
+    "nutrients": ["Manganese","Iron","Fiber","Vitamin B6","Potasium","Vitamin C","Magnesium"],
     "uses": ["Anti-Inflammatory", "Antioxidant", "Alzheimers", "Brain Function", "Heart Disease"]
   },
   {
-    "name":"ginger",
-    "nutrients": ["vitamin B6","magnesium","phosphorus","zinc","folate","riboflavin","niacin"],
-    "uses": ["Nausea", "Pain relief", "Osteoporosis"]
+    "name":"Ginger",
+    "nutrients": ["Vitamin B6","Magnesium","Phosphorus","Zinc","Folate","Riboflavin","Niacin"],
+    "uses": ["Nausea", "Pain Releif", "Osteoporosis"]
   },
   {
-    "name":"garlic",
-    "nutrients": ["vitamin B6","manganese","selenium","vitamin C","phosphorus","calcium",
-    "potasium","iron","copper"],
+    "name":"Garlic",
+    "nutrients": ["Vitamin B6","Manganese","Selenium","Vitamin C","Phosphorus","Calcium",
+    "Potasium","Iron","Copper"],
     "uses": ["Common Cold", "High-Cholesterol", "Blood pressure"]
   },
  {
-   "name":"rosemary",
-   "nutrients": ["vitamin A","thiamin","magnesium","fiber","vitamin C","vitamin B6","folate",
-   "calcium","iron","magnesium","saturated fats"],
+   "name":"Rosemary",
+   "nutrients": ["Vitamin A","Thiamin","Magnesium","Fiber","Vitamin C","Vitamin B6","Folate",
+   "Calcium","Iron","Magnesium","Saturated Fats"],
    "uses": ["Anti-inflammatory", "Allergies", "Nasal Congestion"]
   }]
 }

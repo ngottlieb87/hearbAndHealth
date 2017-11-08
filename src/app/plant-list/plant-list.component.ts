@@ -17,7 +17,6 @@ export class PlantListComponent implements OnInit {
 
   ngOnInit() {
     this.plants = this.plantService.getPlants();
-
   };
 
   goToPlantDetailPage(clickedPlant){
