@@ -15,7 +15,6 @@ export class PlantDetailComponent implements OnInit {
   plantId: string;
   plantToDisplay;
 
-
   constructor(private route: ActivatedRoute,
               private location: Location,
               private plantService: PlantService) { }
@@ -27,11 +26,15 @@ export class PlantDetailComponent implements OnInit {
     // this.plantToDisplay = this.plantService.getPlantById(this.plantId);
     this.plantService.getPlantById(this.plantId).subscribe(lastData=>{
       this.plantToDisplay = lastData;
+    });
 
-      console.log(this.plantToDisplay);
+    this.plantService.getPlantById(this.plantId).subscribe(lastData=>{
+        this.plantToDisplay = lastData;
+
       this.plantToDisplay.nutrients.forEach(function(nutrient){
+        console.log(nutrient)
         return nutrient;
       })
-    });
+    })
   }
 }
