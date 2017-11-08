@@ -5,12 +5,16 @@
 <div class ="row">
   <div class = "col-sm-6">
     <div class = "well">
-      <li>{{plantToDisplay?.nutrients}}</li>
+      <ul>
+        <li *ngFor="let nutrient of plantToDisplay.nutrients">{{nutrient}}</li>
+      </ul>
     </div>
   </div>
   <div class = "col-sm-6">
     <div class = "well">
-      <h3>{{plantToDisplay?.uses}}</h3>
+      <ul>
+        <li *ngFor="let use of plantToDisplay.uses">{{use}}</li>
+      </ul>
     </div>
   </div>
 </div>
