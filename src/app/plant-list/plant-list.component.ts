@@ -14,7 +14,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class PlantListComponent implements OnInit {
   plants: FirebaseListObservable<any[]>;
   constructor(private router: Router, private plantService: PlantService) { }
-
+  user;
   ngOnInit() {
     this.plants = this.plantService.getPlants();
   };
@@ -22,4 +22,5 @@ export class PlantListComponent implements OnInit {
   goToPlantDetailPage(clickedPlant){
     this.router.navigate(['plants',clickedPlant.$key])
   };
+
 }

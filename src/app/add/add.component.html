@@ -1,0 +1,30 @@
+<div *ngIf="user">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Add New Plant</h3>
+    </div>
+    <div class="panel-body">
+      <div>
+        <div>
+          <label>Plant Name:</label>
+          <br>
+          <input #newName>
+        </div>
+
+        <div>
+          <label>Plant Nutrients:</label>
+          <br>
+          <input #newNutrients>
+        </div>
+
+        <div>
+          <label>Plant Uses:</label>
+          <br>
+          <textarea #newUses></textarea>
+        </div>
+        <button (click)="submitForm(newName.value, newNutrients.value, newUses.value); newName.value=''; newNutrients.value=''; newUses.value=''">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+<h2><em>Please login to access add new herbs</em></h2>

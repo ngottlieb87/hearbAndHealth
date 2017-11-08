@@ -16,9 +16,9 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(name: string, nutrients: string[], uses: string[]) {
-    var newPlant: Plant = new Plant(name, nutrients, uses);
-    this.plantService.addPlant(newPlant);
-  }
+  // submitForm(name: string, nutrients: string[], uses: string[]) {
+  //   var newPlant: Plant = new Plant(name, nutrients, uses);
+  //   this.plantService.addPlant(newPlant);
+  // }
 
 }
