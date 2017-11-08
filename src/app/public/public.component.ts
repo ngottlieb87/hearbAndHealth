@@ -13,5 +13,6 @@ export class PublicComponent {
 
   ngDoCheck() {
     this.user = firebase.auth().currentUser;
+    console.log(this.user);
   }
 }
