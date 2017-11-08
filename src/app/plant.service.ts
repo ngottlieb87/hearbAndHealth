@@ -13,6 +13,10 @@ export class PlantService {
     return this.plants;
   }
 
+  addPlant(newPlant: Plant) {
+    this.plants.push(newPlant);
+  }
+
   getPlantById(plantId: string){
     return this.database.object('/plants/' + plantId);
 }

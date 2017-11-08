@@ -3,7 +3,7 @@
     <div class="navbar-header">
       <a class="navbar-brand" routerLink="">Home</a>
       <a class="navbar-brand" routerLink="plant-list">Search</a>
-      <a class="navbar-brand" routerLink="">Add</a>
+      <a class="navbar-brand" routerLink="admin">Add</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li *ngIf="isLoggedIn">
@@ -17,8 +17,9 @@
   </div>
 </nav>
 <router-outlet></router-outlet>
+<br><br>
 <footer class="footer">
   <div class="container">
-    <a class="text-muted" routerLink="edit-plant">Admin</a>
+    <a class="text-muted" routerLink="admin-plant-list">Admin</a>
   </div>
 </footer>

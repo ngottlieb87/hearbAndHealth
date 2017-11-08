@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
   body {
    background-image:  url("https://whiteoakrichmond.com/wp-content/uploads/2013/10/grass-dirt-tiled-background.png");
-   height: 100%;
    background-position: top;
    background-repeat: no-repeat;
    background-size: cover;
   }
+
   html {
     height: 100%;
   }
