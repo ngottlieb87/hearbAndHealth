@@ -1,16 +1,24 @@
-<div class= "well">
-  <h3>{{plantToDisplay?.name}}</h3>
-</div>
-
-<div class ="row">
-  <div class = "col-sm-6">
-    <div class = "well">
-      <li>{{plantToDisplay?.nutrients}}</li>
+<div *ngIf="user">
+  <div class= "well">
+    <h3>{{plantToDisplay?.name}}</h3>
+  </div>
+  <div class ="row">
+    <div class = "col-sm-6">
+      <div class = "well">
+        <h3>Nutrients of {{plantToDisplay?.name}}</h3>
+        <ul>
+          <li *ngFor="let nutrient of plantToDisplay?.nutrients">{{nutrient}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class = "col-sm-6">
+      <div class = "well">
+        <h3>Medicinal Uses for {{plantToDisplay?.name}}</h3>
+        <ul>
+          <li *ngFor="let use of plantToDisplay?.uses">{{use}}</li>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class = "col-sm-6">
-    <div class = "well">
-      <h3>{{plantToDisplay?.uses}}</h3>
-    </div>
-  </div>
 </div>
+<h2><em>Please login to access herb details</em></h2>

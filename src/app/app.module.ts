@@ -10,8 +10,6 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
-import { PublicComponent } from './public/public.component';
-import { PrivateComponent } from './private/private.component';
 import { AuthGuard } from './auth-guard/auth-guard.service';
 import { AuthenticationService } from './authentication/authentication.service';
 import { PlantListComponent } from './plant-list/plant-list.component';
@@ -19,6 +17,7 @@ import { PlantDetailComponent } from './plant-detail/plant-detail.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminPlantListComponent } from './admin-plant-list/admin-plant-list.component';
 import { AdminEditPlantComponent } from './admin-edit-plant/admin-edit-plant.component';
+import { AddComponent } from './add/add.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -34,13 +33,12 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     HomeComponent,
-    PublicComponent,
-    PrivateComponent,
     PlantListComponent,
     PlantDetailComponent,
     AdminComponent,
     AdminPlantListComponent,
-    AdminEditPlantComponent
+    AdminEditPlantComponent,
+    AddComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { Location } from '@angular/common';
 import { Plant } from '../plant.model';
 import { PlantService } from '../plant.service';
 import { FirebaseObjectObservable } from 'angularfire2/database';
+import * as firebase from "firebase";
 
  @Component({
   selector: 'app-plant-detail',
@@ -14,8 +15,7 @@ import { FirebaseObjectObservable } from 'angularfire2/database';
 export class PlantDetailComponent implements OnInit {
   plantId: string;
   plantToDisplay;
-
-
+  user;
   constructor(private route: ActivatedRoute,
               private location: Location,
               private plantService: PlantService) { }
@@ -27,11 +27,18 @@ export class PlantDetailComponent implements OnInit {
     // this.plantToDisplay = this.plantService.getPlantById(this.plantId);
     this.plantService.getPlantById(this.plantId).subscribe(lastData=>{
       this.plantToDisplay = lastData;
+    });
 
-      console.log(this.plantToDisplay);
+    this.plantService.getPlantById(this.plantId).subscribe(lastData=>{
+        this.plantToDisplay = lastData;
+
       this.plantToDisplay.nutrients.forEach(function(nutrient){
+        console.log(nutrient)
         return nutrient;
       })
-    });
+    })
+  }
+  ngDoCheck() {
+    this.user = firebase.auth().currentUser;
   }
 }
