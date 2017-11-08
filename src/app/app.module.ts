@@ -16,8 +16,9 @@ import { AuthGuard } from './auth-guard/auth-guard.service';
 import { AuthenticationService } from './authentication/authentication.service';
 import { PlantListComponent } from './plant-list/plant-list.component';
 import { PlantDetailComponent } from './plant-detail/plant-detail.component';
-import { EditPlantComponent } from './edit-plant/edit-plant.component';
 import { AdminComponent } from './admin/admin.component';
+import { AdminPlantListComponent } from './admin-plant-list/admin-plant-list.component';
+import { AdminEditPlantComponent } from './admin-edit-plant/admin-edit-plant.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -37,8 +38,9 @@ export const firebaseConfig = {
     PrivateComponent,
     PlantListComponent,
     PlantDetailComponent,
-    EditPlantComponent,
-    AdminComponent
+    AdminComponent,
+    AdminPlantListComponent,
+    AdminEditPlantComponent
   ],
   imports: [
     BrowserModule,
