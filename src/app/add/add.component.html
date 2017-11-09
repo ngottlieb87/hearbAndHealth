@@ -27,4 +27,6 @@
     </div>
   </div>
 </div>
-<h2><em>Please login to access add new herbs</em></h2>
+<div class= "accessDenied" *ngIf="!user">
+  <h3><a routerLink="">Return Home</a></h3>
+</div>

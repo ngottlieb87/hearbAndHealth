@@ -21,4 +21,6 @@
     </div>
   </div>
 </div>
-<h2><em>Please login to access herb details</em></h2>
+<div *ngIf="!user">
+  <h3><a routerLink="">Return Home</a></h3>
+</div>
