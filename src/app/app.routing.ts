@@ -6,6 +6,7 @@ import { PlantListComponent} from './plant-list/plant-list.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { AdminEditComponent } from './admin-edit/admin-edit.component';
+import { AuthGuard } from './auth-guard/auth-guard.service';
 
 const appRoutes: Routes = [
   {
@@ -14,7 +15,8 @@ const appRoutes: Routes = [
   },
   {
     path: 'plants/:id',
-    component: PlantDetailComponent
+    component: PlantDetailComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'plant-list',
@@ -22,15 +24,18 @@ const appRoutes: Routes = [
   },
   {
     path: "add",
-    component: AddComponent
+    component: AddComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'edit',
-    component: EditComponent
+    component: EditComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'admin-edit',
-    component: AdminEditComponent
+    component: AdminEditComponent,
+    canActivate: [AuthGuard]
   }
 ];
 
