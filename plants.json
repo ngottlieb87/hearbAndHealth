@@ -1,49 +1,58 @@
 {"plants": [{
     "name": "Mint",
+    "img": "https://www.naturesgift.com/uploaded/thumbnails/db_file_img_5032_200x200.jpg",
     "nutrients": ["Potasium","Magnesium","Calcium","Phosphorus","Vitamin C","Iron"],
     "uses": ["Allergies", "Breast Feeding", "Common Cold", "Indegestion and Gas", "IBS", "Gastric ulcers", "Pain Relief", "Skin and Oral Health","Pain Releif"]
   },
   {
     "name":"Basil",
+    "img": "http://hobbyfarms.com.s3-us-west-2.amazonaws.com/image_transfer/crops-gardening/basil-sweet_200.jpg",
     "nutrients": ["Calcium","Iron","Manganese","Magnesium","Vitamin C","Potasium","Vitamin K",
     "Vitamin A"],
     "uses": ["Cholesterol Control", "Atherosclerosis", "Heart Attacks", "Strokes"]
   },
   {
     "name":"Oregano",
+    "img": "http://www.prohealth.com/library/articleImages/lgimage_29145.jpg",
     "nutrients": ["Fiber","Calcium","Iron","Manganese","Magnesium","Potasium","Vitamin E",
     "Vitamin K"],
     "uses": ["Treating Infections", "Osteoporosis", "Diabetes", "Cancer", "Diabetes"]
   },
   {
     "name":"Cinnamon",
+    "img": "https://www.worldhealth.net/static/images/homefeature/150724_cinnamon.jpg",
     "nutrients": ["Fiber","Manganese","Calcium","Iron","Vitamin K"],
     "uses": ["Blood Sugar Management","Anti-Inflammatory", "Heart Health", "Protects Brain Function", "Fights Infectious Disease"]
   },
   {
     "name":"Sage",
+    "img": "https://sowtrueseed-7b55.kxcdn.com/wp-content/uploads/2015/08/t-sage1.jpg",
     "nutrients": ["Fiber","Vitamin A","Folate","Calcium","Iron","Magnesium","Manganese",
     "Vitamin B", "Folic Acid","Thiamin","Pyridoxine","Riboflavin"],
     "uses": ["Improve Brain Function", "Alzheimer","Memory","Lowering Blood Glucose"]
   },
   {
     "name": "Tumeric",
+    "img": "https://sowtrueseed-7b55.kxcdn.com/wp-content/uploads/2015/08/t-sage1.jpg",
     "nutrients": ["Manganese","Iron","Fiber","Vitamin B6","Potasium","Vitamin C","Magnesium"],
     "uses": ["Anti-Inflammatory", "Antioxidant", "Alzheimers", "Brain Function", "Heart Disease"]
   },
   {
     "name":"Ginger",
+    "img": "http://kauaiorganicfarms.com/wp-content/uploads/2013/08/organic-wholesale-ginger-200x200.jpg",
     "nutrients": ["Vitamin B6","Magnesium","Phosphorus","Zinc","Folate","Riboflavin","Niacin"],
     "uses": ["Nausea", "Pain Releif", "Osteoporosis"]
   },
   {
     "name":"Garlic",
+    "img":"http://imgusr.tradekey.com/o-B8773817-20160923005746/new-crop-fresh-natural-garlic-white-garlic-with-best-garlic-price.jpg",
     "nutrients": ["Vitamin B6","Manganese","Selenium","Vitamin C","Phosphorus","Calcium",
     "Potasium","Iron","Copper"],
     "uses": ["Common Cold", "High-Cholesterol", "Blood pressure"]
   },
  {
    "name":"Rosemary",
+   "img": "https://i1.wp.com/wackscandles.com/wp-content/uploads/2017/09/rosemary.jpg?fit=200%2C200",
    "nutrients": ["Vitamin A","Thiamin","Magnesium","Fiber","Vitamin C","Vitamin B6","Folate",
    "Calcium","Iron","Magnesium","Saturated Fats"],
    "uses": ["Anti-inflammatory", "Allergies", "Nasal Congestion"]
