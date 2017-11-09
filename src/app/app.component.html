@@ -7,11 +7,11 @@
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li *ngIf="isLoggedIn">
-        <a>{{userName}}</a>
-        <a (click)="logout()">Log out</a>
+        <a><font color="green">{{userName}}</font></a>
+        <a (click)="logout()"><font color="green">Log out</font></a>
       </li>
       <li *ngIf ="!isLoggedIn">
-        <a (click)="login()">Log in</a>
+        <a (click)="login()"><font color="red">Log in</font></a>
       </li>
     </ul>
   </div>

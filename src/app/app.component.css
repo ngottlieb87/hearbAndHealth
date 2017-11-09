@@ -1,0 +1,25 @@
+.size {
+  height: 30px;
+  margin-left: 30px;
+}
+
+#marginAdmin {
+  margin-right: 60px;
+}
+
+#marginContact {
+  position: absolute;
+  right: 60px;
+}
+
+.text-muted {
+  color: green;
+}
+
+.navbar-brand {
+  color: green;
+}
+
+.loginGreen {
+  color: green;
+}
