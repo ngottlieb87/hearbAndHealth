@@ -4,9 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { PlantDetailComponent} from './plant-detail/plant-detail.component';
 import { PlantListComponent} from './plant-list/plant-list.component';
 import { AdminComponent} from './admin/admin.component';
-import { AdminPlantListComponent } from './admin-plant-list/admin-plant-list.component';
-import { AdminEditPlantComponent } from './admin-edit-plant/admin-edit-plant.component';
 import { AddComponent } from './add/add.component';
+import { EditComponent } from './edit/edit.component';
+import { AdminEditComponent } from './admin-edit/admin-edit.component';
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -25,20 +26,16 @@ const appRoutes: Routes = [
     component: AddComponent
   },
   {
-    path: 'admin-plant-list',
-    component: AdminPlantListComponent
-  },
-  {
-    path: 'admin-edit-plant/:id',
-    component: AdminEditPlantComponent
-  },
-  {
     path: 'admin',
     component: AdminComponent
   },
   {
-    path: 'admin-edit-plant/:id',
-    component: AdminEditPlantComponent
+    path: 'edit',
+    component: EditComponent
+  },
+  {
+    path: 'admin-edit',
+    component: AdminEditComponent
   }
 ];
 
