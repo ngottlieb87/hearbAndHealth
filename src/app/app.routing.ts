@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { PlantDetailComponent} from './plant-detail/plant-detail.component';
 import { PlantListComponent} from './plant-list/plant-list.component';
-import { AdminComponent} from './admin/admin.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { AdminEditComponent } from './admin-edit/admin-edit.component';
@@ -24,10 +23,6 @@ const appRoutes: Routes = [
   {
     path: "add",
     component: AddComponent
-  },
-  {
-    path: 'admin',
-    component: AdminComponent
   },
   {
     path: 'edit',

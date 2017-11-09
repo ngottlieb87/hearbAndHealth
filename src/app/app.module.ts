@@ -14,7 +14,6 @@ import { AuthGuard } from './auth-guard/auth-guard.service';
 import { AuthenticationService } from './authentication/authentication.service';
 import { PlantListComponent } from './plant-list/plant-list.component';
 import { PlantDetailComponent } from './plant-detail/plant-detail.component';
-import { AdminComponent } from './admin/admin.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { AdminEditComponent } from './admin-edit/admin-edit.component';
@@ -35,7 +34,6 @@ export const firebaseConfig = {
     HomeComponent,
     PlantListComponent,
     PlantDetailComponent,
-    AdminComponent,
     AddComponent,
     EditComponent,
     AdminEditComponent
