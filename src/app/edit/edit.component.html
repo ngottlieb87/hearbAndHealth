@@ -1,13 +1,13 @@
 <h4>Edit Plant</h4>
 
-<label>New Plant Title:</label>
-<input [(ngModel)]="selectedPlant.title">
+<label>New Plant Name:</label>
+<input [(ngModel)]="selectedPlant.name">
 <br>
-<label>New Plant Artist:</label>
-<input [(ngModel)]="selectedPlant.artist">
+<label>New Plant Nutrient:</label>
+<input [(ngModel)]="selectedPlant.nutrients">
 <br>
-<label>New Plant Description:</label>
-<input [(ngModel)]="selectedPlant.description">
+<label>New Plant use:</label>
+<input [(ngModel)]="selectedPlant.uses">
 <button (click)="beginUpdatingPlant(selectedPlant)">Update</button>
 <button (click)="beginDeletingPlant(selectedPlant)">Delete</button>
 <br>
