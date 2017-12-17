@@ -1,28 +1,49 @@
-# HerbTracker
+# _Herb and Health_
+
+#### _A group project exploring Angular, 11.09.2017_
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Development server
+#### By _Noah Gottlieb, Gabi Gavric, Rebecca McIntosh_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Description
 
-## Code scaffolding
+_Herb and Health is a site designed to collect information on herbs and plants and their benefits and store this information into a database for others to access._
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Build
+### User Stories
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* Users should be able to sign in to access the site.
+* Users should be able search for plants and see a detailed view of each plant.
+* Users should be able to suggest plants with benefits to be included into the database.
+* Administrators should be able to create, update, and destroy information in the database.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Technologies Used
 
-## Running end-to-end tests
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* Node
+* Angular 2
+* Typescript
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+### Database Requirements
 
-## Further help
+1. _Run `$ git clone` [https://github.com/ngottlieb87/herbAndHealth](https://github.com/ngottlieb87/herbAndHealth) in your Desktop to download the project directory locally._
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. _Run `$ cd herbAndHealth/` to change from your Desktop to the project directory._
+
+3. _Run `$ npm install` to install the node dependencies._
+
+4. _Run `$ ng serve` for a development server. Navigate to [http://localhost:4200/](http://localhost:4200/). The app will automatically reload if you change any of the source files._
+
+
+### Support and contact details
+
+_If you have any updates or suggestions please make a contribution to my repository or  contact [Rebecca](biffbangpow767@yahoo.com) directly._
+
+### License
+
+_© 2017 Herb and Health_
